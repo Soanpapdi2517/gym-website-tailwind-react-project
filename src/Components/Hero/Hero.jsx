@@ -1,3 +1,5 @@
+import {FaPlay} from "react-icons/fa";
+import dumbbells from "../../assets/dumbbells.png"
 const Hero = () => {
   return (
     <section>
@@ -14,18 +16,21 @@ const Hero = () => {
               content of a page when are the best product.
             </p>
             {/* button sectoion */}
-            <div className=" flex justify-center md:justify-start gap-8 .primary-btn">
-            <button className="primary-btn">
+            <div className=" flex justify-center items-center md:justify-start gap-8 mt-4">
+            <button className="primary-btn flex items-center gap-2">
                 Order Now
             </button>
-            <button>
-                Watch Now
+            <button className="flex items-center gap-2 mt-4 justify-center">
+               <FaPlay /> Watch Now
             </button>
             </div>
 
           </div>
         </div>
         {/* image section */}
+        <div className="flex flex-col justify-center items-center py-14 md:py-0">
+          <img src={dumbbells} alt="" className="w-[400px] md:w-[550px] xl:w-[700px] drop-shadow"/>
+        </div>
       </div>
     </section>
   );

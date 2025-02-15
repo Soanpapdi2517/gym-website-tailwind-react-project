@@ -15,13 +15,13 @@ export const NavbarMenu = [
     link: "#",
   },
   {
-    id: 2,
+    id: 4,
     title: "Blogs",
     link: "#",
   },
   {
-    id: 2,
+    id: 5,
     title: "Pricing",
     link: "#",
   },
-]
+];
