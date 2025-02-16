@@ -1,4 +1,5 @@
 import "./App.css";
+import Equipments from "./Components/Equipments/Equipments";
 import Hero from "./Components/Hero/Hero";
 import Navbar from "./Components/Navbar/Navbar";
 import bgStyle2 from "./assets/bgimage.png";
@@ -13,10 +14,10 @@ function App() {
   return (
     <div className="overflow-x-hidden">
       <div style={bgStyle}>
-      <Navbar />
-      <Hero />
+        <Navbar />
+        <Hero />
       </div>
-
+      <Equipments></Equipments>
     </div>
   );
 }
